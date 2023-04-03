@@ -7496,6 +7496,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 4em;
   padding-bottom: 4em;
+  opacity: 0.5;
 }
 @media screen and (max-width: 480px) {
   #fh5co-header {
@@ -8315,7 +8316,14 @@ a > img.fh5co-align-center {
 }
 
 /*# sourceMappingURL=style.css.map */
-body {background-color : #ededed; font-family : "Open Sans", sans-serif;}
+body {background-color : #ededed; 
+  font-family : "Open Sans", sans-serif;
+  background: url(../images/iloveyou/2.png) no-repeat center  fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 h1 {padding: 40px; text-align: center; font-size: 1.5em;}
 
