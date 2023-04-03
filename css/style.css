@@ -8318,11 +8318,11 @@ a > img.fh5co-align-center {
 /*# sourceMappingURL=style.css.map */
 body {background-color : #ededed; 
   font-family : "Open Sans", sans-serif;
-  background: url(../images/iloveyou/2.png) no-repeat center  fixed; 
+  background: url(../images/iloveyou/2.png)  center  fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: auto;
 }
 
 h1 {padding: 40px; text-align: center; font-size: 1.5em;}
@@ -8369,7 +8369,7 @@ nav {
 
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .slide {height: 600px;} 
+#touch:checked + .slide {height: 700px;} 
 
 
 /* button on dropdown */
